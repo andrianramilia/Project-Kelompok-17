@@ -1,0 +1,166 @@
+body{
+    background-image: linear-gradient(#ffffff,#07C2FD);
+    widows: 1440px;
+    height:1024px;
+    background-repeat:no-repeat;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav.navbar > div.container {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+nav.navbar .title {
+    display: flex;
+}
+
+nav.navbar .navigation a:not(:last-child) {
+    margin-right: 25px;
+    color: black;
+}
+nav.navbar .navigation a:not(.button):hover {
+    border-bottom: 1px solid black;
+}
+
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: palegoldenrod;
+}
+
+
+button {
+    background-color: #F9EAA0;
+    color:black;
+    padding: 10px;
+    margin: 8px 8px;
+    border: none;
+    border-radius: 82px;
+    cursor: pointer;
+    width: 8%;
+    position: relative;
+    right:10%;
+    font-size:  16px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+
+button:hover {
+    opacity: 0.8;
+  }
+  
+  
+  h1{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+  }
+
+  p{
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    font-weight: 400;
+    font-size: 28px;
+    position: relative;
+    right: 11%;
+  }
+  p1{
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    font-weight: 600;
+    font-size: 16px;
+    right: 11%;
+    position: relative;
+    justify-content: left;
+  }
+
+  h2{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+  }
+  h3{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    position: relative;
+    margin-top:250px;
+  }
+
+  p2{
+    font-family: 'Poppins', sans-serif;
+    text-align:center;
+    font-weight: 400;
+    font-size: 18px;
+    position: relative;
+    left: 33%;
+
+  }
+
+  p3{
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top:55px;
+    position: relative;
+    right: 7%;
+    
+  }
+
+  .box{
+    width: 200px;
+    height: 150px;
+    justify-content: space-between;
+    display: flex;
+    border-radius: 20px;
+    border: 5px solid #F9EAA0;
+    background-color: white;
+    position: relative;
+    left: 22%;
+    float: left;
+    margin: 5px;
+
+}
+
+.kotakgambar .gambar1 {
+    width: 370px;
+    height: 271px;
+   border-radius: 50px;
+    border:8px solid #F9EAA0;
+    position: relative;
+    left: 70%;
+    align: justify-content;
+    float: left;
+    margin: 0px,9px,3px,0px;
+}
+
+.kotakgambar .gambar2{
+    width: 50px;
+    height: 60px;
+    position: relative;
+    left: 36%;
+
+}
+
+
