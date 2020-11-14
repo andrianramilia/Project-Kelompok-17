@@ -150,7 +150,6 @@ button:hover {
     border:8px solid #F9EAA0;
     position: relative;
     left: 70%;
-    align: justify-content;
     float: left;
     margin: 0px,9px,3px,0px;
 }
@@ -160,7 +159,6 @@ button:hover {
     height: 60px;
     position: relative;
     left: 36%;
-
 }
 
 
