@@ -43,10 +43,6 @@ nav.navbar .navigation a:not(.button):hover {
     height: 100vh;
     background-color: palegoldenrod;
 }
-
-label{
-    font-size: 17pt;
-}
     
 .box_Registrasi{
     box-sizing : border-box;
