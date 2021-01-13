@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="masuk.css">
 
 </head>
-<body>
+<body id="body">
     <nav class="navbar">
         <div class="container">
             <div class="title">
@@ -25,17 +25,32 @@
             <h2>Masuk</h2>
             </div>
 
-            <div>
-            <form method="POST" class="form">
-            <input type="text" class="box_Registrasi" placeholder="Email/ Nama Pengguna">
-            <input type="password" class="box_Registrasi" placeholder="Password">
+            <form id= "formmasuk" name="login">
+            <input type="text" name="username" class="box_Registrasi" placeholder="Email/ Nama Pengguna">
+            <input type="password" name="password"class="box_Registrasi" placeholder="Password">
+            <button type="submit" data-toggle="modal">MASUK</button>
             </form>
 
+            <div class="modal success">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            Selamat Anda Berhasil Login
+                        </div>
+                    </div>
+                </div>
             </div>
-        
-            <div>
-            <a href="pilihan.html"><button type="submit">MASUK</button></a>
+
+            <div class="modal invalid">
+                <div class="modal-dialog">
+                    <div class="modal-contentinvalid">
+                        <div class="modal-header">
+                            Username atau Password Anda Salah
+                        </div>
+                    </div>
+                </div>
             </div>
+    
 
             <div>
             <a href="daftar.html"></a><p>Belum punya akun? <a href="daftar.html">Daftar Sekarang</a></p>
@@ -46,5 +61,6 @@
             
               
     </nav>
+    <script src="masuk.js"></script>
 </body>
 </html>
