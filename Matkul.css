@@ -116,7 +116,12 @@ li a {
     border-radius: 20px;
     border-color: #F9EAA0;
     border-width: 3px;
+    padding: 10px,30px;
     cursor: pointer;
+}
+
+.kotaksoal .button1:hover{
+    background: chartreuse;
 }
 
 .kotaksoal .button2{
@@ -131,6 +136,10 @@ li a {
     border-style: solid;
     border-width: 3px;
     cursor: pointer;
+}
+
+.kotaksoal .button2:hover{
+    background: chartreuse;
 }
 
 .kotakpembahasan {
@@ -176,8 +185,11 @@ li a {
     border-radius: 20px;
     border-color:#F9EAA0;
     border-width: 3px;
-    cursor: pointer;
-    
+    cursor: pointer;   
+}
+
+.kotakpembahasan .button1:hover{
+    background: chartreuse;
 }
 
 .kotakpembahasan .button2{
@@ -192,6 +204,10 @@ li a {
     border-style: solid;
     border-width: 3px;
     cursor: pointer;
+}
+
+.kotakpembahasan .button2:hover{
+    background: chartreuse;
 }
 
 .dashboard .next {
@@ -263,3 +279,174 @@ li a {
     background-color: #82ec8b;
     border: none;
 }
+
+@media screen and (max-width: 768px){
+    @font-face {
+        font-family: Poppins;
+        src: url(./font/Poppins-Medium.ttf);
+    }
+
+    h1 {
+        position: absolute;
+        top: 1%;
+        left: 6%;
+        font-size: 28px;
+    }
+    
+    ul{
+        position: absolute;
+        top: 3%;
+        right: 5% ;
+        font-size: 18px;
+    }
+    
+    .dashboard {
+        width: 350px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .dashboard h2{
+        font-size: 20px;
+        left: 5%;
+    }
+    
+    .display .kotaksoal {
+        width: 180px;
+        height: 200px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .display .latihan{
+        font-size: 10px;
+    }
+
+    .latihan p{
+        font-size: 8px;
+    }
+
+    .kotaksoal .gambar1{
+        width: 65px;
+        height: 50px;
+        margin-top: 30px;
+        margin-left: 12px;
+    }
+
+    .kotaksoal .gambar2{
+        width: 65px;
+        height: 50px;
+        margin-bottom: 50px;
+        margin-right: 12px;
+    }
+
+    .kotaksoal .button1{
+        height: 20px;
+        width: 65px;
+        font-size: 9px;
+        margin-top: 80px;
+        margin-right: 12px;
+    }
+
+    .kotaksoal .button2{
+        height: 20px;
+        width: 65px;
+        font-size: 9px;
+        margin-bottom: 100px;
+        margin-left: 12px;
+    }
+
+    .display .pembahasan{
+        font-size: 10px;
+    }
+
+    .kotakpembahasan {
+        width: 180px;
+        height: 200px;
+    }
+
+    .pembahasan p{
+        font-size: 9px;
+    }
+    
+    .kotakpembahasan .gambar1 {
+        width: 65px;
+        height: 50px;
+        margin-top: 30px;
+        margin-left: 12px;
+    }
+    
+    .kotakpembahasan .gambar2 {
+        width: 65px;
+        height: 50px;
+        margin-bottom: 50px;
+        margin-right: 12px;
+    }
+    
+    .kotakpembahasan .button1{
+        width: 65px;
+        height: 20px;  
+        font-size: 9px;
+        margin-top: 80px;
+        margin-right: 12px;
+    }
+    
+    .kotakpembahasan .button2{
+        height: 20px;
+        width: 65px;
+        font-size: 9px;
+        margin-bottom: 100px;
+        margin-left: 12px;
+    }
+    
+    .dashboard .next {
+        position: relative;
+        top: 78%;
+        left: 63%;
+        text-decoration: none;
+        word-spacing: 8px;
+        font-size: 12px;
+    }
+    
+    .videotutorial {
+        width: 300px;
+        height: 600px;
+    }
+    
+    .videotutorial h2 {
+        font-size: 20px;
+    }
+    
+    .display .berikutnya {
+        margin-left: 25px;
+    }
+    
+    .videoutama .videomapel {
+        width: 215px;
+        height: 100px;
+        margin-left: 25px;
+    }
+    
+    .listvideo .deskripsi {
+        width: 215px;
+        height: 80px;
+        margin-left: 25px;
+    }
+    
+    .deskripsi .videomapel {
+        width: 100px;
+        height: 75px;
+    }
+    
+    .deskripsi .button {
+        position: relative;
+        text-align: left;
+        bottom: 50px;
+        height: 70px;
+        font-size: 8px;
+        background-color: #82ec8b;
+        border: none;
+    }
+}
+
