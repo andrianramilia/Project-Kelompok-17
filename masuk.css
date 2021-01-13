@@ -65,13 +65,14 @@ button {
     background-color: #F9EAA0;
     color:black;
     padding: 20px;
-    margin: 8px 8px;
     border: none;
     border-radius: 82px;
     cursor: pointer;
     width: 12%;
     position: relative;
-    left:45%;
+    right:30%;
+
+    margin-inline-start: 75%;
     font-size:  16px;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
@@ -101,3 +102,53 @@ button:hover {
       font-size: 20px;
       text-align: center;
   }
+
+  .modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.672);
+}
+ .modal-contentinvalid {
+    background-color:darkred;
+    color:white;
+    border-radius: 10px;
+}
+ .modal.show {
+    display: block;
+    animation: fade .5s forwards;
+}
+ .modal-dialog {
+    position: relative;
+    width: auto;
+    max-width: fit-content;
+    margin: 50px auto;
+}
+ .modal-content {
+    background-color:darkorange;
+    color:white;
+    border-radius: 10px;
+}
+ .modal-content .modal-header {
+    padding: 30px 50px;
+}
+
+ .modal-contentinvalid .modal-header {
+    padding: 30px 50px;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 10;
+        transform: scale(1);
+    } 50% {
+        opacity: 1;
+        transform: scale(1.1);
+    } 100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
