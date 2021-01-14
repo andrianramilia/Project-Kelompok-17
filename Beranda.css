@@ -146,7 +146,7 @@ button:hover {
 .kotakgambar .gambar1 {
     width: 370px;
     height: 271px;
-   border-radius: 50px;
+    border-radius: 50px;
     border:8px solid #F9EAA0;
     position: relative;
     left: 70%;
@@ -159,6 +159,10 @@ button:hover {
     height: 60px;
     position: relative;
     left: 36%;
+}
+
+@media screen and (max-width: 600px){
+
 }
 
 
