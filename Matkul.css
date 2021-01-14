@@ -37,7 +37,6 @@ li a {
 }
 
 .pelajaran{
-    margin-top: 75px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -280,7 +279,175 @@ li a {
     border: none;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1060px){
+    @font-face {
+        font-family: Poppins;
+        src: url(./font/Poppins-Medium.ttf);
+    }
+
+    h1 {
+        position: absolute;
+        top: 1%;
+        left: 5.5%;
+        font-size: 28px;
+    }
+    
+    ul{
+        position: absolute;
+        top: 3%;
+        right: 5% ;
+        font-size: 18px;
+    }
+    
+    .dashboard {
+        width: 475px;
+        height: 700px;
+    }
+    
+    .dashboard h2{
+        font-size: 22px;
+        left: 3%;
+    }
+    
+    .display .kotaksoal {
+        width: 250px;
+        height: 240px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .display .latihan{
+        font-size: 15px;
+    }
+
+    .latihan p{
+        font-size: 13px;
+    }
+
+    .kotaksoal .gambar1{
+        width: 85px;
+        height: 70px;
+        margin-top: 30px;
+        margin-left: 12px;
+    }
+
+    .kotaksoal .gambar2{
+        width: 85px;
+        height: 70px;
+        margin-bottom: 50px;
+        margin-right: 12px;
+    }
+
+    .kotaksoal .button1{
+        height: 23px;
+        width: 85px;
+        font-size: 12px;
+        margin-top: 80px;
+        margin-right: 12px;
+    }
+
+    .kotaksoal .button2{
+        height: 23px;
+        width: 85px;
+        font-size: 12px;
+        margin-bottom: 100px;
+        margin-left: 12px;
+    }
+
+    .display .pembahasan{
+        font-size: 15px;
+    }
+
+    .kotakpembahasan {
+        width: 250px;
+        height: 240px;
+    }
+
+    .pembahasan p{
+        font-size: 12px;
+    }
+    
+    .kotakpembahasan .gambar1 {
+        width: 85px;
+        height: 70px;
+        margin-top: 30px;
+        margin-left: 12px;
+    }
+    
+    .kotakpembahasan .gambar2 {
+        width: 85px;
+        height: 70px;
+        margin-bottom: 50px;
+        margin-right: 12px;
+    }
+    
+    .kotakpembahasan .button1{
+        width: 85px;
+        height: 23px;  
+        font-size: 12px;
+        margin-top: 80px;
+        margin-right: 12px;
+    }
+    
+    .kotakpembahasan .button2{
+        height: 23px;
+        width: 85px;
+        font-size: 12px;
+        margin-bottom: 100px;
+        margin-left: 12px;
+    }
+    
+    .dashboard .next {
+        position: relative;
+        top: 78%;
+        left: 70%;
+        text-decoration: none;
+        word-spacing: 8px;
+        font-size: 12px;
+    }
+    
+    .videotutorial {
+        width: 380px;
+        height: 700px;
+    }
+    
+    .videotutorial h2 {
+        font-size: 20px;
+    }
+    
+    .display .berikutnya {
+        margin-left: 30px;
+    }
+    
+    .videoutama .videomapel {
+        width: 285px;
+        height: 150px;
+        margin-left: 30px;
+    }
+    
+    .listvideo .deskripsi {
+        width: 275px;
+        height: 90px;
+        margin-left: 30px;
+    }
+    
+    .deskripsi .videomapel {
+        width: 120px;
+        height: 90px;
+    }
+    
+    .deskripsi .button {
+        position: relative;
+        text-align: left;
+        bottom: 58px;
+        height: 85px;
+        font-size: 10px;
+        background-color: #82ec8b;
+        border: none;
+    }
+}
+
+@media screen and (max-width: 780px){
     @font-face {
         font-family: Poppins;
         src: url(./font/Poppins-Medium.ttf);
@@ -410,7 +577,7 @@ li a {
     }
     
     .videotutorial {
-        width: 300px;
+        width: 275px;
         height: 600px;
     }
     
@@ -445,6 +612,186 @@ li a {
         bottom: 50px;
         height: 70px;
         font-size: 8px;
+        background-color: #82ec8b;
+        border: none;
+    }
+}
+
+@media screen and (max-width: 600px){
+    @font-face {
+        font-family: Poppins;
+        src: url(./font/Poppins-Medium.ttf);
+    }
+
+    h1 {
+        position: absolute;
+        top: 1%;
+        left: 6%;
+        font-size: 28px;
+    }
+    
+    ul{
+        position: absolute;
+        top: 3%;
+        right: 5% ;
+        font-size: 18px;
+    }
+
+    .pelajaran{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .dashboard {
+        width: 500px;
+        height: 650px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .dashboard h2{
+        font-size: 20px;
+        margin-right: 78%;
+    }
+    
+    .display .kotaksoal {
+        width: 275px;
+        height: 250px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .display .latihan{
+        font-size: 15px;
+    }
+
+    .latihan p{
+        font-size: 13px;
+    }
+
+    .kotaksoal .gambar1{
+        width: 100px;
+        height: 80px;
+        margin-top: 30px;
+        margin-left: 12px;
+    }
+
+    .kotaksoal .gambar2{
+        width: 100px;
+        height: 80px;
+        margin-bottom: 50px;
+        margin-right: 12px;
+    }
+
+    .kotaksoal .button1{
+        height: 30px;
+        width: 100px;
+        font-size: 15px;
+        margin-top: 80px;
+        margin-right: 12px;
+    }
+
+    .kotaksoal .button2{
+        height: 30px;
+        width: 100px;
+        font-size: 15px;
+        margin-bottom: 100px;
+        margin-left: 12px;
+    }
+
+    .display .pembahasan{
+        font-size: 15px;
+    }
+
+    .kotakpembahasan {
+        width: 275px;
+        height: 250px;
+    }
+
+    .pembahasan p{
+        font-size: 13px;
+    }
+    
+    .kotakpembahasan .gambar1 {
+        width: 100px;
+        height: 80px;
+        margin-top: 30px;
+        margin-left: 12px;
+    }
+    
+    .kotakpembahasan .gambar2 {
+        width: 100px;
+        height: 80px;
+        margin-bottom: 50px;
+        margin-right: 12px;
+    }
+    
+    .kotakpembahasan .button1{
+        width: 100px;
+        height: 30px;  
+        font-size: 15px;
+        margin-top: 80px;
+        margin-right: 12px;
+    }
+    
+    .kotakpembahasan .button2{
+        width: 100px;
+        height: 30px;
+        font-size: 15px;
+        margin-bottom: 100px;
+        margin-left: 12px;
+    }
+    
+    .dashboard .next {
+        position: relative;
+        top: 85%;
+        left: 33%;
+        text-decoration: none;
+        word-spacing: 8px;
+        font-size: 12px;
+    }
+    
+    .videotutorial {
+        width: 500px;
+        height: 750px;
+        margin-top: 4%;
+        align-items: center;
+    }
+    
+    .videotutorial h2 {
+        font-size: 20px;
+    }
+    
+    .display .berikutnya {
+        margin-left: 25px;
+    }
+    
+    .videoutama .videomapel {
+        width: 385px;
+        height: 200px;
+        margin-left: 25px;
+    }
+    
+    .listvideo .deskripsi {
+        width: 355px;
+        height: 100px;
+        margin-left: 25px;
+    }
+    
+    .deskripsi .videomapel {
+        width: 150px;
+        height: 100px;
+    }
+    
+    .deskripsi .button {
+        position: relative;
+        text-align: left;
+        bottom: 65px;
+        height: 95px;
+        font-size: 13px;
         background-color: #82ec8b;
         border: none;
     }
