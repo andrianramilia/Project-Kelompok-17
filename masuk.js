@@ -23,7 +23,7 @@ button.addEventListener('click', function() {
 
 modalSuccess.addEventListener('click', function() {
     this.classList.remove('show');
-
+    window.location.href = "pilihan.html";
 });
 
 modalInvalid.addEventListener('click', function() {
