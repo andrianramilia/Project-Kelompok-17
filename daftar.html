@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="daftar.css">
 </head>
-<body>
+<body id="body">
     <nav class="navbar">
         <div class="container">
             <div class="title">
@@ -25,16 +25,33 @@
             </div>
 
             <div>
-                <form method="POST">
-                <input type="text" class="box_Registrasi" placeholder="Email">
-                <input type="text" class="box_Registrasi" placeholder="Nama Pengguna">
-                <input type="password" class="box_Registrasi" placeholder="Password">
-                <input type="password" class="box_Registrasi" placeholder="Konfirmasi Password">
+                <form id="formdaftar" name="daftar">
+                <input type="text" name= "email" class="box_Registrasi" placeholder="Email">
+                <input type="text" name= "username" class="box_Registrasi" placeholder="Nama Pengguna">
+                <input type="password" name= "password" class="box_Registrasi" placeholder="Password">
+                <input type="password" name= "konfirmasi" class="box_Registrasi" placeholder="Konfirmasi Password">
+                <button type="submit" data-toggle="modal">DAFTAR</button>
                 </form>
             </div>
-        
-            <div>
-            <a href="Masuk.html"><button type="submit">DAFTAR</button></a>
+
+            <div class="modal success">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            Selamat Anda Berhasil Mendaftar
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal invalid">
+                <div class="modal-dialog">
+                    <div class="modal-contentinvalid">
+                        <div class="modal-header">
+                            Data Tidak Boleh Kosong. Silahkan Cek Kembali
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div>
