@@ -7,7 +7,7 @@ body{
 
 a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: calc(15px + 0.18vw);
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
@@ -47,7 +47,7 @@ nav.navbar .navigation a:not(.button):hover {
     }
 
 ::placeholder{
-        font-size:  18px;
+        font-size: calc(12px + 0.20vw);
         font-weight: 600;
         font-family: 'Poppins', sans-serif;
     }
@@ -59,11 +59,11 @@ button {
     border: none;
     border-radius: 82px;
     cursor: pointer;
-    width: 12%;
+    width:150px;
     position: relative;
     right:30%;
     margin-inline-start: 75%;
-    font-size:  16px;
+    font-size: calc(13px + 0.20vw);
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
   }
@@ -78,18 +78,18 @@ button:hover {
     font-family: 'Poppins', sans-serif;
     text-align: center;
     font-weight: 400;
-    font-size: 36px;
+    font-size: calc(13px + 1.5vw);
   }
   
   h2{
-    font-size: 40px;
+    font-size: calc(15px + 1.5vw);
     font-family: 'Poppins', sans-serif;
     text-align: center;
     font-weight: 600;
   }
 
   p{
-      font-size: 20px;
+      font-size: calc(15px + 0.18vw);
       text-align: center;
   }
 
