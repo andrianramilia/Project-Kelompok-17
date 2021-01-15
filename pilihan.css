@@ -7,7 +7,7 @@ body{
 
 a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: calc(15px + 0.18vw);
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
@@ -39,31 +39,31 @@ nav.navbar .navigation a:not(.button):hover {
     font-family: 'Poppins', sans-serif;
     text-align: center;
     font-weight: 400;
-    font-size: 36px;
+    font-size: calc(13px + 1.5vw);
   }
  
   h2{
-    font-size: 48px;
+    font-size: calc(15px + 1.5vw);
     font-family: 'Poppins', sans-serif;
     text-align: center;
     font-weight: 600;
   }
 
   p{
-      font-size: 24px;
+      font-size: calc(10px + 1vw);
       text-align: center;
       font-family: 'Poppins', sans-serif;
       font-weight: 400;
 
   }
+
   p1{
-    font-size: 22px;
+   font-size: calc(10px + 1vw);
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 
   }
-
 
   .container_label{
     max-width: 590px;
@@ -87,6 +87,7 @@ nav.navbar .navigation a:not(.button):hover {
     flex-wrap: wrap;
     border-radius: 20px;
     margin-top: -33px;
+
 }
 
 .kotakpilihan .gambar1 {
@@ -99,3 +100,4 @@ nav.navbar .navigation a:not(.button):hover {
     position: relative;
     left: 29%;
 }
+
