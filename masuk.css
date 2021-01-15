@@ -1,7 +1,7 @@
 body{
     background-image: linear-gradient(#ffffff,#07C2FD);
     max-width: 1440px;
-    height:1024px;
+    height:780px;
     background-repeat:no-repeat;
 }
 
@@ -39,7 +39,7 @@ nav.navbar .navigation a:not(.button):hover {
     box-sizing : border-box;
     width: 50%;
     padding: 30px;
-    margin: 20px 40px;
+    margin-bottom: 20px;
     border: 8px solid #F9EAA0;
     border-radius: 82px;
     position: relative;
@@ -76,6 +76,7 @@ button:hover {
   
   h1{
     font-family: 'Poppins', sans-serif;
+    margin-top: -2.5px;
     text-align: center;
     font-weight: 400;
     font-size: calc(13px + 1.5vw);
@@ -141,4 +142,18 @@ button:hover {
         opacity: 1;
         transform: scale(1);
     }
+}
+
+@media screen and (max-width: 680px){
+    button{
+        font-size: 12px;
+        width: auto;
+    }
+
+    p{margin-top: 40px;}
+
+    a{font-size: 13px;}
+
+    nav.navbar .navigation a:not(:last-child) {
+        margin-right: 15px;
 }
